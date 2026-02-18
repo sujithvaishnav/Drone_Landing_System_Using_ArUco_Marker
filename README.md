@@ -91,12 +91,6 @@ Drone Landing Simulation.wbt
 
 ---
 
-## Author
-
-Sujith Vaishnav Malla  
-B.Tech AI & DS  
-
----
 
 ## License
 
