@@ -1,0 +1,37 @@
+K_VERTICAL_THRUST = 68.5
+
+K_ROLL_P = 50.0
+K_PITCH_P = 30.0
+
+K_YAW_P = 6.0
+K_YAW_D = 2.0
+
+K_VEL_XY_P = 4.0
+K_VEL_Z_P = 6.0
+
+K_POS_P = 0.6
+K_POS_D = 0.8
+
+MAX_VEL_XY = 0.8
+MAX_VEL_Z = 0.6
+
+MAX_TILT = 0.15
+
+VEL_SMOOTH = 0.03
+
+ALIGN_GAIN = 0.4
+
+HORIZONTAL_TOLERANCE = 0.15
+VERTICAL_TOLERANCE = 0.25
+
+LAND_HEIGHT = 0.15
+
+WAYPOINTS = [
+
+    (2.0, 2.0, 1.5),
+    (4.0, 1.0, 1.5),
+    (1.0, 3.0, 1.5),
+
+]
+
+TARGET_MARKER_IDS = [10, 25, 42]
