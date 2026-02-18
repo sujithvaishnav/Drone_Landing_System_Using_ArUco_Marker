@@ -1,0 +1,64 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/dji/mavic/protos/Mavic2Pro.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.16185702758396373 -0.3936905847323511 -0.904881222103091 0.08360311407148506
+  position -7.711041769983812 0.2794014670915365 0.6407584914716102
+  follow "Mavic 2 PRO"
+  followType "Mounted Shot"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 25 25
+}
+DEF LandingPad_1 Solid {
+  translation 3 2.38 0.01
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "../aruco_10.png"
+          ]
+        }
+        roughness 1
+      }
+      geometry Plane {
+        size 0.75 0.75
+      }
+    }
+  ]
+}
+DEF LandingPad_2 Solid {
+  translation 4 1 0.01
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "../aruco_25.png"
+          ]
+        }
+        roughness 1
+      }
+      geometry Plane {
+        size 0.75 0.75
+      }
+    }
+  ]
+  name "solid(1)"
+}
+Mavic2Pro {
+  translation -0.005549450116152932 -3.530929672149961e-07 0.06561650845931075
+  rotation 0.00010767660545846526 -0.9999999910829593 -7.899259302850432e-05 0.07000421825322563
+  controller "drone_controller"
+}
