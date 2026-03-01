@@ -4,7 +4,7 @@ from sensors import Sensors
 from motors import Motors
 from aruco import ArucoDetector
 from navigation import Navigation
-from controller import FlightController
+from flight_controller import FlightController
 
 from config import *
 from utils import log, clamp
