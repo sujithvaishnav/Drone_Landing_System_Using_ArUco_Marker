@@ -8,10 +8,10 @@ drone_landing_simulation/
 │
 ├── controllers/
 │       └── drone_controller/
-│                 └── drone_controller.py
+│                 └── drone_controller.py (main.py)
 │                 └── aruco.py
 │                 └── config.py
-│                 └── controller.py
+│                 └── flight_controller.py
 │                 └── motors.py
 │                 └── navigation.py
 │                 └── sensors.py
