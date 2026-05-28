@@ -8,13 +8,15 @@ drone_landing_simulation/
 │
 ├── controllers/
 │       └── drone_controller/
-│                 └── drone_controller.py (main.py)
-│                 └── aruco.py
-│                 └── config.py
-│                 └── flight_controller.py
-│                 └── motors.py
-│                 └── navigation.py
-│                 └── sensors.py
+│                 ├── drone_controller.py (main.py)
+│                 ├── aruco.py
+│                 ├── config.py
+│                 ├── flight_controller.py
+│                 ├── motors.py
+│                 ├── navigation.py
+│                 ├── sensors.py
+│                 ├── logger.py
+│                 ├── visualize.py
 │                 └── utils.py
 │
 ├── worlds/
@@ -23,6 +25,8 @@ drone_landing_simulation/
 ├── requirements.txt
 │
 └── README.md
+
+
 ```
 ---
 
