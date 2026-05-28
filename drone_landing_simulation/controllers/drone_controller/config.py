@@ -35,3 +35,13 @@ WAYPOINTS = [
 ]
 
 TARGET_MARKER_IDS = [10, 25, 42]
+
+# Position controller gains
+
+Kp_xy = 0.5
+Ki_xy = 0.01
+Kd_xy = 0.15
+
+Kp_z = 0.8
+Ki_z = 0.02
+Kd_z = 0.2
